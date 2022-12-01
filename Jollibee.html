@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Jollibee| Online Order Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="orderform.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" aria-label="#">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Jollibee.html"
+          ><img src="images/Main logo.png" width="50" alt="Main Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="Jollibee.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Bestsellers</a></li>
+                <li><a class="dropdown-item" href="#">New products</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"> Jolly Kids Meal</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./Full-Menu.html"
+                    >View the Full Menu</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <header class="container">
+            <!-- form at the end-->
+            <div class="dropdown-center danger justify-content-end">
+              <button
+                type="button"
+                class="btn text-light me-2 mt-3 dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-bs-auto-close="outside"
+                stylesheet="background-color:hsl(349, 82%, 49%)"
+              >
+                <a class="btn" type="submit" href="Delivery.html">
+                  <img src="images/Order.png" alt="order" width="50" />
+                </a>
+                Sign-In
+              </button>
+              <form class="dropdown-menu p-3">
+                <div class="mb-3">
+                  <label for="exampleDropdownFormEmail2" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleDropdownFormEmail2"
+                    placeholder="email@example.com"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleDropdownFormPassword2" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleDropdownFormPassword2"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="dropdownCheck2"
+                    />
+                    <label class="form-check-label" for="dropdownCheck2">
+                      Remember me
+                    </label>
+                  </div>
+                </div>
+                <button
+                  type="submit"
+                  class="btn text-light"
+                  style="background-color: red"
+                >
+                  Sign in
+                </button>
+              </form>
+            </div>
+          </header>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main>
+      <!-- Carousel -->
+      <section class="container mt-lg-5 mb-lg-5">
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/banner1.jpg"
+                class="d-block w-100"
+                alt="Kiddie Meal"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/banner6.jpg"
+                class="d-block w-100"
+                alt="Chicken"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/banner2.jpg"
+                class="d-block w-100"
+                alt="Family Meals"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/banner4.jpg"
+                class="d-block w-100"
+                alt="Family Meals"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="home-container mt-lg-5 mb-lg-5">
+          <h1>
+            We are known for our crispylicious, juicylicious Chickenjoy, Jolly
+            Spaghetti, and Yumburger is the country's No. 1 restaurant for
+            years.
+          </h1>
+          <p>
+            Your Jollibee favorites same price as dine-in, fixed P49 fee & no
+            min. order for web & app. Whether big or small order, delivery fee
+            is now fixed at P49. No minimum order required.
+          </p>
+
+          <a
+            href="Full-Menu.html"
+            class="btn btn-lg mb-lg-5"
+            style="background-color: hsl(349, 82%, 49%); color: white"
+          >
+            Start New Order</a
+          >
+        </div>
+      </section>
+
+      <nav
+        class="navbar fixed-bottom navbar-expand-lg bg-light"
+        aria-label="current page2"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            >Copyright © 2022 Jollibee. All Rights Reserved.</a
+          >
+
+          <div class="ccontainer-fluid">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn"
+                type="submit"
+                style="background-color: hsl(349, 82%, 49%); color: white"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
